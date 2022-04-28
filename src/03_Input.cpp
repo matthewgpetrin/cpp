@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     /* Console Input:
-     * - Performed using "cin"
+     * - cin >> data
      * - Is a predefined object
      * - Instance of ostream class
      * - Followed by extraction operator (>>)

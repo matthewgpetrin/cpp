@@ -12,10 +12,18 @@ int main() {
 
     /* Fundemental Data Types:
      * - Basic types implemented directly into the language
-     * - Character - Single characters
-     * - Numerical Integer - Whole numbers
-     * - Floating Point - Real numbers with varying levels of precision
-     * - Boolean - True or false (1 or 0)
+     * - Character:
+     *      - char identifier = 'character'
+     *      - Single characters
+     * - Numerical Integer:
+     *      - int indentifier = integer
+     *      - Whole numbers
+     * - Floating Point:
+     *      - float identifier = number
+     *      - Real numbers with varying levels of precision
+     * - Boolean:
+     *      - bool identifier = true/false
+     *      - True or false (1 or 0)
      * - Integers may be signed or unsigned
      * - Basic types are stored as binary with a RAM address
      */
@@ -27,6 +35,7 @@ int main() {
     double z = 123.456789; // Intiialization of double precision floating point
 
     /* Variable Syntax:
+     * - type identifier = value
      * - Declaration - Declares the variable identifier and type
      * - Assignment - Assigns the variable a value
      * - Reassignment - Assings the variable a new value
@@ -38,9 +47,9 @@ int main() {
     int n = 20; // Initialization
 
     /* Constant Expressions:
-    * - Declared using "const" keyword
-    * - Makes a variable read only
-    */
+     * - const type identifier = value
+     * - Makes a variable read only
+     */
     const int c = 20; // Initialization of read only variable
 
     return 0;

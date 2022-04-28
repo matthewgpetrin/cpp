@@ -6,10 +6,12 @@ using namespace std;
 int main() {
     /* C Math Operations:
      * - Requires the "cmath" library
-     * - Trig - Trigonometric functions
-     * - Logs - Exponential and logaraithmic functions
-     * - Power - Power and root functions
-     * - Round - Rounding functions
+     * - Trigonometric functions
+     * - Exponential
+     * - Logarithmic functions
+     * - Power functions
+     * - Root functions
+     * - Rounding functions
      * - Take numerical values as parameters
      * - Return numerical values
      */

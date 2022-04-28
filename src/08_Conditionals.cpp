@@ -5,9 +5,15 @@ using namespace std;
 int main() {
 
     /* If Else Statements:
-     * - If - Executes block if given condition is true
-     * - Else - Executes block if all previous conditions are false
-     * - Else If - Executes block if given condition is true AND all previous conditions are false
+     * - If:
+     *      - if (condition) {statement}
+     *      - Executes statment if given condition is true
+     * - Else:
+     *      - else {statement}
+     *      - Executes block if all previous conditions are false
+     * - Else If:
+     *      else if (condition) {statement}
+     *      - Executes statement if given condition is true AND all previous conditions are false
      */
     int time = 16;
 
@@ -19,13 +25,18 @@ int main() {
         cout << "Good evening. \n";
     }
 
-    // Switch Statements
+    /* Switch Statements:
+     * - switch (parameter) {case constant:statement default:statement}
+     * - Compares parameter to a set of constant expressions
+     * - Executes statement if constant is equal to given parameter
+     * - Default case executes if no constants match input parameter
+     * - Cases are limited to constant expressions
+     */
     int day = 4;
-
-    switch (day) { // Compares input to each case
-        case 1:
+    switch (day) { // Declares switch statement and input parameter
+        case 1: // Executes following block if expression is equal to input parameter
             cout << "Sunday \n";
-            break; // Ends the switch comparisons
+            break;
         case 2:
             cout << "Monday \n";
             break;

@@ -5,9 +5,9 @@ using namespace std;
 
 int main() {
     /* Strings:
-     * - Declared by "string" keyword
-     * - Not primitive data types
+     * - string identifier = "string"
      * - Sequence of characters
+     * - Not primitive data types
      * - Requires the "string" library?
      * - May be concatenated using the addition operator
      */
@@ -16,15 +16,20 @@ int main() {
     cout << "My full name is " + firstName + " " + lastName << ". \n"; // Outputs concatenated strings
 
     /* String Methods:
-     * - Called using [indentifier].[method]
-     * - Performs operations on the specified string
-     * - Append - Appends data to the end of a string
-     * - Length - Returns the length of the specified string
+     * - indentifier.method
+     * - Perform operations on the specified string
+     * - Append:
+     *      - identifer.append()
+     *      - Appends data to the end of a string
+     * - Length:
+     *      - identifier.length()
+     *      - Returns the length of the specified string
      */
     string fullName = firstName.append(" " + lastName); // Initializes string with appended data
     cout << "My name is " << fullName.length() - 1 << " letters long. \n"; // Outputs length of given string
 
     /* String Indices:
+     * - indentifier[index]
      * - Characters in strings are assigned indices starting at 0
      * - Indices may be returned or reassigned
      */
@@ -34,7 +39,7 @@ int main() {
     cout << "My new name is " << fullName << ". \n"; // Outputs string with newly reassigned character
 
     /* Get Line Function:
-     * - Called using getline()
+     * - getline()
      * - Requires string library
      * - Retrieves an entire line of data
      * - Does NOT terminate on whitespaces
